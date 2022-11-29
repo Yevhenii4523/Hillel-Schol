@@ -1,1 +1,1 @@
-# Hillel-Schol
+# Hillel-School
