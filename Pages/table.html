@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+
+<body>
+    <div align="center">
+        <font size="10" face="monospace">
+            <i>
+                <a href="./gallery.html"> Gallery</a>
+                <a href="./about.html">About</a>
+                <a href="../index.html">Home page</a>
+                <a href="./contact.html">Contact</a>
+            </i>
+        </font>
+    </div>
+    <div>
+        <table border="1" style="height: 200px; width: 400px;">
+            <colgroup>
+                <col span="4" style="background-color: yellow">
+            </colgroup>
+            <thead>
+                <tr align="center">
+                    <td colspan="4" bgcolor="#00bfff">MY FIRST TABLE</td>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr align="center">
+                    <td bgcolor="#00bfff">First cell</td>
+                    <td bgcolor="#00bfff">Second cell</td>
+                    <td rowspan="3" colspan="2">6 cells merged together</td>
+                </tr>
+                <tr align="center">
+                    <td colspan="2">2 cells merged into one</td>
+                </tr>
+                <tr align="center">
+                    <td>1st cell <br> 3rd row</td>
+                    <td>2st cell <br> 3rd row</td>
+                </tr>
+            </tbody>
+            <tfoot align="center">
+                <tr>
+                    <td colspan="4">Do you like tables</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+</body>
+
+</html>
