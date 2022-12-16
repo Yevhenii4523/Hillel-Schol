@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search</title>
+    <style>
+        .label1 {
+            width: 200px;
+            display: inline-block;
+
+        }
+
+        .selectType {
+            width: 170px;
+
+        }
+
+        .inputType1 {
+            width: 71px;
+
+        }
+
+        .labelType1 {
+            width: 50px;
+            display: inline-block;
+
+        }
+
+        .spanType {
+            width: 100px;
+            display: inline-block;
+
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <fieldset style="width: fit-content; background:url(../Images/backregistrationauto.jpeg)">
+            <section>
+                <label for="type_cuzov" class="label1">Тип кузова: </label>
+                <select name="type_cuzov" id="cuzov" class="selectType">
+                    <option value="1">Седан</option>
+                    <option value="2">Универсал</option>
+                    <option value="3">Купе</option>
+                    <option value="4">Лимузин</option>
+                    <option value="5">Кабриолет</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <label for="marka_auto" class="label1">Марка авто: </label>
+                <select name="marka_auto" id="marka" class="selectType">
+                    <option value="1"> Nissan</option>
+                    <option value="2">BMV</option>
+                    <option value="3">Opel</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <label for="strana_proizvoditel" class="label1"> Страна произврдитель: </label>
+                <select name="strana_proizvoditel" id="prizvoditel" class="selectType">
+                    <option value="1">Германия</option>
+                    <option value="2">Франция</option>
+                    <option value="3">Украина</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <label for="sostoyanie" class="label1">Состояние: </label>
+                <select name="sostoyanie" id="state" class="selectType">
+                    <option value="1">Новый</option>
+                    <option value="2">Битый</option>
+                    <option value="3">В кредите</option>
+                    <option value="4">Не растаможен</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <label for="oil" class="label1">Тип горючего: </label>
+                <select name="oil" id="benz" class="selectType">
+                    <option value="1">Дизель</option>
+                    <option value="2">Бензин</option>
+                    <option value="3">Газ</option>
+                    <option value="4">Електро</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <label for="corobka" class="label1">Тип коробки: </label>
+                <select name="corobka" id="peredacha" class="selectType">
+                    <option value="">Механика</option>
+                    <option value="">Автомат</option>
+                    <option value="">Полуавтомат</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <label for="color" class="label1">Цвет тачки: </label>
+                <input type="color" name="color" class="selectType">
+            </section>
+            <br>
+            <section>
+                <label for="comfort" class="label1">Тип салона: </label>
+                <select name="confort" id="comfo" class="selectType">
+                    <option value="1">Комфорт</option>
+                    <option value="2">Люкс</option>
+                    <option value="3">Бич вариант</option>
+                </select>
+            </section>
+            <br>
+            <section>
+                <div>
+                    <span class="spanType">Цена:</span>
+                    <label for="pricelow" class="labelType1">от</label>
+                    <input type="number" name="pricelow" min="0" max="999999" step="50" value="0" class="inputType1">
+                    <label for="pricehigh" class="labelType1">до</label>
+                    <input type="number" name="pricehigh" min="0" max="1000000" step="50" value="1000000"
+                        class="inputType1">
+                </div>
+            </section>
+            <br>
+            <section>
+                <div>
+                    <span class="spanType">Год выпуска:</span>
+                    <label for="yearlow" class="labelType1">от</label>
+                    <input type="number" name="yearlow" min="1995" max="2022" step="1" value="1995" class="inputType1">
+                    <label for="yearhigh" class="labelType1">до</label>
+                    <input type="number" name="yearhigh" min="1995" max="2022" step="1" value="2022" class="inputType1">
+                </div>
+            </section>
+            <br>
+            <section align="center">
+                <button type="submit" style="height: 60px; width: 100px; background-color: rgb(0, 191, 255);">
+                    <b>КЧАУ!</b>
+                </button>
+            </section>
+        </fieldset>
+    </form>
+    <br>
+    <section>
+        <button style="height: 60px; width: 100px; background-color: rgb(0, 191, 255);">
+            <a href="../Auto/autoreg.html"><b>Ливнуть на главную</b></a>
+        </button>
+    </section>
+
+</body>
+
+</html>
