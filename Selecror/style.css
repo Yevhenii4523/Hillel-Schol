@@ -1,0 +1,58 @@
+body, h1, p, span, button, ol, li {
+    font-size: 24px;
+    color: red;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#h_1 {
+    color: goldenrod;
+}
+
+.block {
+    font-size: 25px;
+    background-color: yellow;
+}
+
+button {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    color: blueviolet;
+    background-color: bisque;
+}
+
+.twoclass {
+    color: darkblue;
+}
+
+#inputselector {
+    color: beige;
+}
+
+.selector_1 {
+    color: violet;
+}
+
+.selector_2 {
+    color: darkslategrey;
+}
+
+button span {
+    color: green;
+}
+
+p.selector_2.twoclass {
+    color: chocolate;
+}
+
+span.twoclass p {
+    color: burlywood;
+}
+
+p.selector_2 {
+    color: cyan;
+}
+
+td:first-child {
+    font-size: 16px;
+    color: black;
+}
