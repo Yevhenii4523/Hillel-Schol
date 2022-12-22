@@ -130,6 +130,11 @@ button {
 
 #sector_video iframe {
     margin-top: 110px;
+    padding-left: 399px;
+    padding-right: 399px;
+    aspect-ratio: 16 / 9;
+    width: -webkit-fill-available;
+    min-width: 700px;
 }
 
 #section_foother h3 {
